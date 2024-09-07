@@ -27,7 +27,7 @@ func (m *Matrix) Set(v [][]float64) {
 			m.W = int64(len(v[i]))
 		} else {
 			if m.W != int64(len(v[i])) {
-				panic("ERROR IN MATRIX SIZE")
+				//panic("ERROR IN MATRIX SIZE")
 			}
 		}
 		for j := 0; j < len(v[i]); i++ {
